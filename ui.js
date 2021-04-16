@@ -1,6 +1,7 @@
 $(function() {
   var matrix;
   var items;
+  var count = 0;
 
   $('#submit').click(function(e) {
     e.preventDefault();
@@ -34,6 +35,7 @@ $(function() {
     var result =$(this).data('result');
     matrix.set(a,b,result);
     tryQuickSort();
+    toptext.innerText = ++count;
   });
 
   function showResults() {

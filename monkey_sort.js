@@ -208,7 +208,7 @@ function quickSortBinary(items, matrix) {
     binaryinsertion(matrix, compare, swap, array);
 }
 
-function quickSort(items, matrix) {
+function quickSortFord(items, matrix) {
     console.log("Merge-Insertion Sort");
     var array = items;
     fordjohnson(matrix, compare, swap, array, 0, array.length);
@@ -216,7 +216,7 @@ function quickSort(items, matrix) {
 
 // This is the very simplest form of quick sort.
 // Unknown comparison interrupt is done inside the matrix.get() method
-function quickSortOld(items, matrix) {
+function quickSort(items, matrix) {
     console.log("Quicksort");
     var array = items;
     function qsortPart(low, high) {
