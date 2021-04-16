@@ -2,6 +2,8 @@
 
 Fork of `monkeysort` that uses merge insertion sort instead of quicksort.
 
+edit: for some reason the new algorithm is worse off than quicksort lul
+
 Quicksort is the preferred algorithm because both its swapping and comparing
 take up $\Theta(n\ log\ n)$ time. However, in the case of a human sorting
 algorithm, swapping is meaningless. In this case, we collapse the problem
