@@ -121,6 +121,7 @@ function binaryinsertion(matrix, compare, swap, items) {
         let selected = items[i];
 
         let loc = bsearchin(matrix, compare, items, selected, 0, j);
+        // a i j k
 
         while (j >= loc) {
             items[j + 1] = items[j];
@@ -201,19 +202,22 @@ function fordjohnson(matrix, compare, swap, items, i, j) {
     }
 }
 
-function quickSortBinary(items, matrix) {
+function quickSort(items, matrix) {
+    console.log("Binary Insertion Sort");
     var array = items;
     binaryinsertion(matrix, compare, swap, array);
 }
 
 function quickSortFord(items, matrix) {
+    console.log("Merge-Insertion Sort");
     var array = items;
     fordjohnson(matrix, compare, swap, array, 0, array.length);
 }
 
 // This is the very simplest form of quick sort.
 // Unknown comparison interrupt is done inside the matrix.get() method
-function quickSort(items, matrix) {
+function quickSortOld(items, matrix) {
+    console.log("Quicksort");
     var array = items;
     function qsortPart(low, high) {
         var i = low;
