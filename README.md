@@ -41,6 +41,10 @@ The original author (leonid-shevtsov) didn't explicitly put a license on
 this repo. If you are reading this and would like this repo taken down,
 please contact me.
 
+Code for merge-insertion sort taken from
+[aureooms](https://github.com/aureooms/js-merge-insertion-sort), distributed
+under the AGPL-3.0 License.
+
 ## References
 [^1]: https://cs.stackexchange.com/questions/109867/minimum-number-of-comparisons-in-comparison-based-sorting-algorithms
 [^2]: https://cs.stackexchange.com/a/109879
