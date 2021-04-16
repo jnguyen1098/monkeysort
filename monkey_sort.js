@@ -202,13 +202,13 @@ function fordjohnson(matrix, compare, swap, items, i, j) {
     }
 }
 
-function quickSort(items, matrix) {
+function quickSortBinary(items, matrix) {
     console.log("Binary Insertion Sort");
     var array = items;
     binaryinsertion(matrix, compare, swap, array);
 }
 
-function quickSortFord(items, matrix) {
+function quickSort(items, matrix) {
     console.log("Merge-Insertion Sort");
     var array = items;
     fordjohnson(matrix, compare, swap, array, 0, array.length);
