@@ -19,7 +19,8 @@ lower bounds are well-studied under what's known as the
 [sorting numbers](https://en.wikipedia.org/wiki/Sorting_number). However,
 it turns out there exists an algorithm that can beat these lower bounds, and
 its name is
-[merge insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort).
+[merge insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort),
+and, in recent times, even more efficient algorithms than that.
 
 ## Number of Comparisons
 The number of comparisons is based in information theory, using the following premises[^1]\:
